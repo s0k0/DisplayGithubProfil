@@ -1,0 +1,59 @@
+.repoDetails {
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 80%;
+}
+
+.userName {
+    margin: 12px;
+    color: royalblue;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.directories {
+   width: 100%;
+}
+
+h2, h5 {
+    color: royalblue;
+}
+
+h5 {
+    margin: 0;
+}
+
+.repoList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.repoItem {
+    padding: 12px;
+    margin: 12px;
+    width:20%;
+    border: 1px solid lightgray;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column ;
+    overflow: hidden;
+    cursor: pointer;
+    align-items: self-start;
+}
+
+span {
+    text-align: left;
+    font-size: 12px;
+}

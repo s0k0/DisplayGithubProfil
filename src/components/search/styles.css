@@ -1,0 +1,38 @@
+.searchComponent {
+    height: auto;
+}
+
+.searchBar {
+    background: royalblue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.searchInput {
+    width: 30%;
+    margin: 12px;
+    padding: 12px;
+    border: 2px solid white;
+}
+
+.searchButton, .busy {
+    background-color: white;
+    color: royalblue;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 12px;
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+}
+.busy{
+    opacity: 0.7;
+}
+
+.searchResults {
+    height: auto;
+    min-width: 200px;
+    margin: 48px;
+}
